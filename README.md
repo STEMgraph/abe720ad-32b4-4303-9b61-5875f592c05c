@@ -78,6 +78,7 @@ On ubuntu you may run:
 ```bash
 sudo apt update
 sudo apt install -y                 \
+  libopengl-dev                     \               
   libfreetype6-dev                  \
   libfontconfig1-dev                \
   libglib2.0-dev                    \
@@ -113,7 +114,7 @@ sudo apt install -y                 \
   libxcb-xfixes0-dev                \
   libxcb-xinerama0-dev              \
   libxcb-xkb-dev                    \
-  libpulse-dev       
+  libpulse-dev                      
 ```
 
 <details>
