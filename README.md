@@ -1,6 +1,7 @@
 <!---
 {
   "id": "abe720ad-32b4-4303-9b61-5875f592c05c",
+  "teaches": "Building the CopperSpice KitchenSink Demo",
   "depends_on": [],
   "author": "Stephan Bökelmann",
   "first_used": "2025-05-16",
