@@ -168,24 +168,24 @@ sudo apt install -y                 \
 ---
 
 #### 1.2 Installing the CS-Libraries
-Download the CopperSpice prebuilt libraries from the [original website](https://download.copperspice.com/copperspice/binary/).
+Download the CopperSpice prebuilt libraries from the [original website](https://download.copperspice.com/copperspice/binary/cs-1.9/).
 Make sure, to collect the link for your specific platform. 
 
 Since I recommend installing libraries for such experiments into a visible dir into your home directory. Let's create one first, e.g.:
 ```bash
-mkdir -p ~/STEMgraph/cpplibs/cs2.0_libs/
+mkdir -p ~/STEMgraph/cpplibs/cs1.9_libs/
 ```
 
 Now download the binaries and store them in the lib directory. On ubuntu 24.04, it looks like this:
 ```bash
-wget -O ~/STEMgraph/cpplibs/cs2.0.tar.bz2 https://download.copperspice.com/copperspice/binary/cs-2.0/copperspice-2.0.0-ubuntu24.04-x64.tar.bz2
+wget -O ~/STEMgraph/cpplibs/cs1.9.tar.bz2 https://download.copperspice.com/copperspice/binary/cs-1.9/copperspice-1.9.2-ubuntu24.04-x64.tar.bz2
 ```
 
 Unpack the libraries into the prepared directory:
 ```bash
-tar -xvjf ~/STEMgraph/cpplibs/cs2.0.tar.bz2 -C ~/STEMgraph/cpplibs/cs2.0_libs
+tar -xvjf ~/STEMgraph/cpplibs/cs1.9.tar.bz2 -C ~/STEMgraph/cpplibs/cs1.9_libs
 ```
-* `xvjf`: tells tar to extract (`x`), be verbose (`v`), use _bzip2_ compression (`j`), and operate on the provided file (`f = ~/STEMgraph_libs/cs2.0.tar.bz2`).
+* `xvjf`: tells tar to extract (`x`), be verbose (`v`), use _bzip2_ compression (`j`), and operate on the provided file (`f = ~/STEMgraph_libs/cs1.9.tar.bz2`).
 
 ### 2. Downloading KitchenSink Source Code
 
